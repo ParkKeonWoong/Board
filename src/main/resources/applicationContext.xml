@@ -26,9 +26,7 @@
     </bean>
 
     
-   
-    <context:component-scan base-package="com.example.demo.service"></context:component-scan>
-    <context:component-scan base-package="com.example.demo.dao"></context:component-scan>
-    <context:component-scan base-package="com.example.demo.vo"></context:component-scan>
-
+    <bean id = "boardDao" class = "com.example.demo.dao.BoardDaoImpl"/>
+    <bean id = "boardService" class = "com.example.demo.service.BoardServiceImpl"/>
+    
 </beans>
