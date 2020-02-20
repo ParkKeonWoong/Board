@@ -28,6 +28,11 @@ public class BoardServiceImpl implements BoardService {
     public List<BoardVO> list() throws Exception {
         return boardDao.list();
     }
+
+	@Override
+	public BoardVO read(int bno) throws Exception {
+        return boardDao.read(bno);
+	}
     
     
 }
