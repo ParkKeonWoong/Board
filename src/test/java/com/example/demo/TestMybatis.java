@@ -55,7 +55,7 @@ public class TestMybatis {
         BoardVO boardVo = new BoardVO();
         boardVo.setContent("2");
         boardVo.setTitle("3");
-        boardVo.setWriter("4");
+        boardVo.setWriter("TEST");
 		service.write(boardVo);
 
 		
